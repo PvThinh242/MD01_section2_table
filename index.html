@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+    form {
+        width: 700px;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th,
+    td {
+        padding: 5px;
+        text-align: left;
+    }
+
+    table .thead-center th {
+        text-align: center;
+    }
+
+    table .total-right {
+        text-align: right;
+    }
+
+    table .text-center {
+        text-align: center;
+    }
+
+    table .text-right {
+        text-align: right;
+    }
+</style>
+
+<body>
+    <form action="">
+        <h2>Rikkei Aacademy-Order</h2>
+        <table border="1">
+            <tr class="thead-center">
+                <th rowspan="11"><b>RA</b></th>
+            </tr>
+            <tr>
+                <td><b>Order no:</b></td>
+                <td colspan="3">#RA001</td>
+            </tr>
+            <tr>
+                <td><b>Order Date:</b></td>
+                <td colspan="3">02/12/2022</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="text-center"><b>Customer</b></th>
+            </tr>
+            <tr>
+                <td><b>Name:</b></td>
+                <td colspan="3">Nguyen Van A</td>
+            </tr>
+            <tr>
+                <td><b>Address:</b></td>
+                <td colspan="3">7th floor,Tower A,Song Da building</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="text-center">Order Details</th>
+            </tr>
+            <tr>
+                <td class="text-center">1</td>
+                <td>Html</td>
+                <td>Book</td>
+                <td class="text-right">10.00$</td>
+            </tr>
+            <tr>
+                <td class="text-center">2</td>
+                <td>Css</td>
+                <td>Book</td>
+                <td class="text-right">12.00$</td>
+            </tr>
+            <tr>
+                <td class="text-center">3</td>
+                <td>Javascript</td>
+                <td>DVD</td>
+                <td class="text-right">50.00$</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="total-right"><b>Total:</b></td>
+                <td class="text-right">72.00$</td>
+
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.store {
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+.store h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+
+.store-list {
+    width:100%;
+    padding: 5px;
+}
+
+.store-list .fruit-img {
+       width: 260px;
+    height: 110px;
+    border-radius: 10px;
+    margin: 20px;
+}
+   
+
+
